@@ -1,0 +1,21 @@
+name: arrow-dataset
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # - numpy
+  # - scikit-image
+  # - matplotlib
+  # - pylint
+  # - notebook
+  # - jupyter
+  # - black
+  # - mypy
+  - opencv
+  # - pytorch
+  - pytorch
+  - torchvision
+  - loguru
+  - datasets # Hugging Face
+  - numpy
+  - tqdm
