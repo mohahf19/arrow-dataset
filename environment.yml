@@ -5,10 +5,7 @@ dependencies:
   - python=3.11
   # - numpy
   # - scikit-image
-  # - matplotlib
   # - pylint
-  # - notebook
-  # - jupyter
   # - black
   # - mypy
   - opencv
@@ -19,3 +16,6 @@ dependencies:
   - datasets # Hugging Face
   - numpy
   - tqdm
+  - notebook
+  - jupyter
+  - matplotlib

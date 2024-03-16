@@ -1,4 +1,6 @@
-# About
+# The Arrow Dataset
+
+## About
 
 This repository contains scripts that generate the arrow dataset. This dataset contains
 images that are constructed as follows:
@@ -13,7 +15,28 @@ This creates a dataset of `n * m * k` images.
 
 We select `n=1000`, `m=10`, and `k=4` to create a dataset of `40,000` images.
 
-Script usage:
+## Samples
+
+Here are some samples from the dataset:
+
+![samples](sample.png)
+
+## Usage
+
+First, create the virtual environment:
+
+```bash
+micromamba create -f environment.yml
+```
+
+then activate and run the script:
+
+```bash
+micromamba activate arrow-dataset
+python generate_dataset.py [-h] [--n N] [--k K] [--arrow-dir ARROW_DIR] [--background-dir BACKGROUND_DIR] [--output-dir OUTPUT_DIR]
+```
+
+where the usage is:
 
 ```bash
 usage: generate_dataset.py [-h] [--n N] [--k K] [--arrow-dir ARROW_DIR] [--background-dir BACKGROUND_DIR] [--output-dir OUTPUT_DIR]
